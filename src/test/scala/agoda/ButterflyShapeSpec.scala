@@ -7,7 +7,7 @@ import org.scalatest.{Matchers, FlatSpec}
  */
 class ButterflyShapeSpec extends FlatSpec with Matchers {
 
-  val expected2 = "+       +\n+ +   + +\n+ + - + +\n+ +   + +\n+       +"
+  val expected2 = "+       +\n+ + - + +\n+       +"
   val expected4 = "+               +\n+ +           + +\n+ + +       + + +\n+ + + + - + + + +\n+ + +       + + +\n+ +           + +\n+               +"
 
   "If n = 2" should "print the right shpae" in {

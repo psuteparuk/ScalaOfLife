@@ -2,18 +2,25 @@
 
 Scala Programming
 ===================
-Hi Guy, 
-Our team use Scala to build high concurrency system in The Reactive Programming way.
-I really appreciate that you took so much time to interview with us
-but I need to see more about your programming skill.<br />
+Congradulations, you have passed the first step in interviewing with us. The next phase will be to take short exercises in programming.
+<br/>
+
+In this exercise we would like you to exprience with Scala programming language which is a functional programming language.
+<br />
+
+Follow the instructions of the exam below, and produce the given results in Scala. You may use Pull requests from your Git account or send it to us back on e-mail
+<br/>
 
 Please take your time, this exam is not hard, We no need the result. We need to see how you code.
-After you finish,Please create "Pull requests". 
-
+<br/>
 
 The first you have to do is install "SBT" [http://www.scala-sbt.org] on your machine.<br />
 The second is implement <b>Scala</b> code and test.<br />
+<br/>
+There's some Scala information here:
+http://www.scala-lang.org/documentation/getting-started.html
 
+<br/>
 
 Exam
 -----
@@ -43,9 +50,7 @@ val b2 = ButterflyShape(2)
 b2.printDiamond() 
 ----------------------------------------------------------------
 +       +
-+ +   + +
 + + - + +
-+ +   + +
 +       +
 
 
