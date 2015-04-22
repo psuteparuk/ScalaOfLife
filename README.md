@@ -11,7 +11,7 @@ In this exercise we would like you to exprience with Scala programming language 
 Follow the instructions of the exam below, and produce the given results in Scala. You may use Pull requests from your Git account or send it to us back on e-mail
 <br/>
 
-Please take your time, this exam is not hard, We no need the result. We need to see how you code.
+Please take your time, the exam is not hard and we don't need the result. We need to see how you code.
 <br/>
 
 The first you have to do is install "SBT" [http://www.scala-sbt.org] on your machine.<br />
@@ -47,7 +47,7 @@ d5.printDiamond()
 <pre>
 Create butterfly shape follow by "n". (n is even value only)
 val b2 = ButterflyShape(2)
-b2.printDiamond() 
+b2.printButterfly() 
 ----------------------------------------------------------------
 +       +
 + + - + +
@@ -55,7 +55,7 @@ b2.printDiamond()
 
 
 val b4 = ButterflyShape(4)
-b4.printDiamond()
+b4.printButterfly()
 ----------------------------------------------------------------
 +               +
 + +           + +
