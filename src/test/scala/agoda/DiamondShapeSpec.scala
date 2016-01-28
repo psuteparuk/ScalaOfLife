@@ -11,14 +11,14 @@ class DiamondShapeSpec extends FlatSpec with Matchers {
 
   val expected5 = "    +\n  + + +\n+ + + + +\n  + + +\n    +"
 
-  "If n = 3" should "print the right shpae" in {
-    val result = ""
+  "If n = 3" should "print the right shape" in {
+    val result = DiamondShape(3).getDiamond
 
     result should be (expected3)
   }
 
-  "If n = 5" should "print the right shpae" in {
-    val result = ""
+  "If n = 5" should "print the right shape" in {
+    val result = DiamondShape(5).getDiamond
 
     result should be (expected5)
   }

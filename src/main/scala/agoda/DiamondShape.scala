@@ -6,8 +6,22 @@ package agoda
  */
 case class DiamondShape(size: Int) {
 
-  def getDiamond: Unit = {}
+  def getDiamondLevel(level: Int): String = {
+    var buffer: String = ""
+    for (i <- 1 to size/2-level+1) buffer += "  "
+    for (i <- 1 to 2*level-2) buffer += "+ "
+    buffer + "+"
+  }
 
-  def printDiamond: Unit = {}
+  def getDiamond: String = {
+    var buffer: String = ""
+    for (level <- 1 to size/2+1) buffer += getDiamondLevel(level) + "\n"
+    for (level <- size/2 to 2 by -1) buffer += getDiamondLevel(level) + "\n"
+    buffer + getDiamondLevel(1)
+  }
+
+  def printDiamond: Unit = {
+    print(getDiamond)
+  }
 
 }
